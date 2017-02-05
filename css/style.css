@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    /*line-height: 1.5;*/
+    background-color: #eee;
+}
+.wrapper{
+    width: 100%;
+    min-width: 1000px;
+    background-color: #eee;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    background: linear-gradient(to top, #355781, #367bd1);
+    /*background-color: red;*/
+    padding: 10px 0;
+}
+
+.main_menu{
+    padding: 0;
+    box-sizing: border-box;
+    width: : 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_menu li{
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 40px;
+    margin: 10px;
+    padding: 13px;
+}
+nav a:hover, nav a:active{
+    color: black;
+}
+.sub_menu{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    width: 150px;
+    top : 76px;
+    left: 0px;
+    background-color: #8f33bd;
+    z-index: 10;
+}
+
+.sub_menu li{
+    display: inline;
+    list-style: none;
+}
+
+.sub_menu>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav li.dropdown>a{
+    background-image: url(../img/arrow-down.png);
+    background-position: right 0px bottom 29px;
+    background-repeat: no-repeat;
+}
+.sub_menu>li>a:hover{
+    color: black;
+}
+.jcarousel-wrapper{
+    position: relative;
+    width: 260px;
+    margin: 20px auto;
+    border: 10px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #999;
+}
+.select-wrapper{
+    margin: 30px auto;
+}
+.select-wrapper  form{
+    width: 16%;
+    margin: 0 auto;
+}
+.checkbox-wrapper{
+    width: 30%;
+    margin: 100px auto;
+
+}
+.checkbox{
+    text-align: center;
+}
+.js-check{
+    float: right;
+}
+.js-check label{
+    display: block;
+}
+.css-check{
+    float: left;
+}
